@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: ##f0eeed;
+}
+
+@theme inline {
+  /* FONTS */
+  --font-satoshi: var(--font-satoshi);
+  --font-integral: var(--font-integral);
+  /* COLORS */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: "##000000";
+  --color-secondary: "#F0F0F0";
+  --color-discount: "#FF33331A";
+  --color-backdrop: "#00000033";
+  /* BREAK-POINTS */
+  --breakpoint-2xl: "1440px";
+}
+
+body {
+  background: var(--background);
+  font-family: var(--font-satoshi);
+}
