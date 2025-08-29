@@ -51,7 +51,7 @@ const Hero = () => {
           src={HeroImage}
           alt="hero_image"
           priority
-          className="w-[390px] h-[500px]"
+          className="w-[390px] h-[488px]"
         />
       </div>
     </div>
