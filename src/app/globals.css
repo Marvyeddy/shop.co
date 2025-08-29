@@ -17,6 +17,9 @@
   --color-discount: #ff33331a;
   --color-backdrop: #00000033;
   --color-hero: #f2f0f1;
+  --color-red: #ff3333;
+  --color-light-gray: #00000099;
+  --color-white: #ffffff;
   /* BREAK-POINTS */
   --breakpoint-2xl: 1440px;
 }

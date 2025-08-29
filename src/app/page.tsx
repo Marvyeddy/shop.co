@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/custom/Navbar";
 import Hero from "../components/custom/Hero";
+import LogoTicker from "../components/custom/LogoTicker";
 
 const Home = () => {
   return (
@@ -10,6 +11,9 @@ const Home = () => {
       </div>
 
       <Hero />
+      <div className="bg-primary py-[44px] ">
+        <LogoTicker />
+      </div>
     </section>
   );
 };

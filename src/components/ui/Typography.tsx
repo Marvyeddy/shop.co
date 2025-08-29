@@ -5,7 +5,7 @@ const textStyles = {
     md: "lg:text-[40px] lg:leading-[45px] text-[32px] leading-[35px]",
     "md-pro": "lg:text-[36px] text-[24px]",
     "base-pro": "lg:text-[20px] text-[16px]",
-    base: "lg:text-[16px] text-sm",
+    base: "2xl:text-[16px] lg:text-sm",
     sm: "text-sm",
     xs: "text-xs",
   },
@@ -15,10 +15,10 @@ const textStyles = {
     medium: "font-medium",
   },
   color: {
-    primary: "#000000",
-    "light-gray": "#00000099",
-    red: "#FF3333",
-    white: "#FFFFFF",
+    primary: "text-primary",
+    "light-gray": "text-light-gray",
+    red: "text-red",
+    white: "text-white",
   },
 } as const;
 
