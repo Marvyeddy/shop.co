@@ -20,6 +20,8 @@
   --color-red: #ff3333;
   --color-light-gray: #00000099;
   --color-white: #ffffff;
+  --color-border-gray: #0000001a;
+  --color-discount-text: #00000066;
   /* BREAK-POINTS */
   --breakpoint-2xl: 1440px;
 }

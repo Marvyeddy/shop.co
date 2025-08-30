@@ -6,7 +6,8 @@ const styles = {
   primary: "bg-black text-white",
   secondary: "bg-secondary text-['#00000099]",
   white: "bg-white text-black",
-  transparent: "bg-transparent border border-['#0000001A'] text-black",
+  transparent: "bg-transparent border border-border-gray text-black",
+  discount: "bg-discount text-red",
 };
 
 export default function Button({
@@ -27,7 +28,7 @@ export default function Button({
 }) {
   return (
     <button
-      className={`rounded-full px-4 py-2 hover:scale-105 duration-500 flex gap-3 items-center justify-center w-[210px] ${className} ${styles[variant]}`}
+      className={`rounded-full px-4 py-2 hover:scale-105 duration-500 flex gap-3 items-center justify-center ${className} ${styles[variant]} cursor-pointer`}
       {...props}
     >
       {text ? (
