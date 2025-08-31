@@ -2,7 +2,7 @@ const textStyles = {
   size: {
     xl: "2xl:text-[64px] lg:text-[50px] lg:leading-16 text-[36px] leading-[34px] font-integral",
     lg: "lg:text-5xl text-[32px]",
-    md: "lg:text-[40px] lg:leading-[45px] text-[32px] leading-[35px]",
+    md: "2xl:text-[40px] lg:text-[35px] lg:leading-[45px] text-[32px] leading-[35px]",
     "md-pro": "lg:text-[36px] text-[24px]",
     "base-pro": "lg:text-[20px] text-[16px]",
     base: "2xl:text-[16px] lg:text-sm",

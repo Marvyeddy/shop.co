@@ -5,6 +5,8 @@ import LogoTicker from "../components/custom/LogoTicker";
 import NewArrival from "../components/custom/NewArrival";
 import TopSelling from "../components/custom/TopSelling";
 import BrowseDress from "../components/custom/BrowseDress";
+import CustomerReview from "../components/custom/CustomerReview";
+import Footer from "../components/custom/Footer";
 
 const Home = () => {
   return (
@@ -23,9 +25,13 @@ const Home = () => {
         <TopSelling />
       </div>
 
-      <div className="md:max-w-[1111px] mx-auto">
+      <div className="md:max-w-[1111px] md:mx-auto mb-[156px]">
         <BrowseDress />
       </div>
+
+      <CustomerReview />
+
+      <Footer />
     </section>
   );
 };
